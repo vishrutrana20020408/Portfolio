@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24be92c68a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <!-- insert image link -->
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Artificial Inteligence</p>
+                <h1>Hi, I'm <span> Vishrut Rana</span><br> A <span class="text-anime"></span></h1>
+            </div>
+            <a href="#" class="btn btn2">HIRE ME</a>
+        </div>
+    </div>
+    <div class="bubble">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+    </div>
+    <!------------------------------------------- about ------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="cover main.jpg">
+                    <!-- add the image link -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a programmer having the ability to understand the code and finding out the bugs in the code. I love to learn things and explore new algorithmatic models. I have the ability to gain intrest in each and everythings around me.I beleave
+                        in team work. I have the ability of making the team and help each other in order to gain the best outcome.</b>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab('education')">Education Qualification</p>
+                    </div>
+                    <div class="tab-contacts active-tab" id="skills">
+                        <h2>Web Developer</h2>
+                        <ul>
+                            <li><span>HTML</span><br><span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li><span>CSS</span><br><span class="bar"><span class="css"></span></span>
+                            </li>
+                            <li><span>PHP</span><br><span class="bar"><span class="php"></span></span>
+                            </li>
+                            <li><span>Java Script</span><br><span class="bar"><span class="javascript"></span></span>
+                            </li>
+                            <h2>Cyber Security</h2>
+                            <li><span>Basic General Knowledge</span><br><span class="bar"><span class="basic"></span></span>
+                            </li>
+                            <li><span>Hacking tools in Kali Lunix</span><br><span class="bar"><span class="tools"></span></span>
+                            </li>
+                            <li><span>Networking And Working</span><br><span class="bar"><span class="network"></span></span>
+                            </li>
+                            <h2>Artificial Inteligence</h2>
+                            <li><span>Basic Python</span><br><span class="bar"><span class="basic-py"></span></span>
+                            </li>
+                            <li><span>Python Libraries</span><br><span class="bar"><span class="py"></span></span>
+                            </li>
+                            <h2>Other Languages</h2>
+                            <li><span>MySql</span><br><span class="bar"><span class="mysql"></span></span>
+                            </li>
+                            <li><span>Java</span><br><span class="bar"><span class="java"></span></span>
+                            </li>
+                            <li><span>C</span><br><span class="bar"><span class="c"></span></span>
+                            </li>
+                            <li><span>C++</span><br><span class="bar"><span class="cpp"></span></span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contacts" id="hobbies">
+                        <ul>
+                            <li><span>Gamming</span><br>I lover to play online fighting and badminton, volleyball, etc. physical games as well.
+                            </li>
+                            <li><span>Editing</span><br>I have done editing od videos and images to make my YouTuber channel grow a bit. Due to lake of free time and resources i have to leave it and continue my journey towards the college life.</li>
+                            <li><span>Help Full</span><br> I love to help people and parents so that they can come out from the work and spend some of the time towards their family.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contacts" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>B.Tech From Maharaja Surajmal Institute Of Technology(MSIT), C-4, Janakpuri, New Delhi, India. in Computer Science Engineering(CSE).</li>
+                            <li><span>2020 - 2021</span><br> Class 12 From<b> Sanatam Dharam Public School, Punjabi Bagh, New Delhi,India.</b>
+                            </li>
+                            <li><span>2009 - 2019</span><br>Class 10 From <b>Army Public School,Dhaula Kuan,New Delhi, India.</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------- Services ----------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am quit new to this fild but have a bit of basic knowledge about the web and app designing.I would like to make the AI to provide the services for the humans and examining the nature and cases that can ocure while creating and after
+                        the colaboration project of AI and web designing. It is my second Web project after the cloning of the web application of Netflix. At present I don't have intrest in growing this field. But might be i can make this field a big
+                        success when i start to learn about it in a bit deaper.</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>AI and ML</h2>
+                    <p>I love this filed in colaboration of Cyber Security. My dream project is the collaboration of Cyber Security with Machine learning. According to me the humans are the biggest source of creating the Artificial Inteligence and Machine
+                        Learning. Hence We are the inteligent person on earth. But as we all get tired very fast we want Machine and AI tools to execute and find out the bugs in the algorithms. Hence I love AI in collaboration with cyber security.
+                    </p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Cyber Security</h2>
+                    <p>We all know that in the current world there are less amount of peogrammers that love to work to protect the devices from getting hacked. As a result i am trying to make the world and the e-world a bit safer place for all the humanity.
+                        When AI colabs with cyber security we would be able to find bugs faster and efficiently. Providing the excelent securities to the system.
+                    </p>
+                    <a href="hacking and their techniques.pdf">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------------Portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpeg">
+                    <!-- image to be inserted -->
+                    <div class="layer">
+                        <h3>Genrative AI Project</h3>
+                        <p>I have made a generative AI project to gain the basic information about the </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpeg">
+                    <!-- image to be inserted -->
+                    <div class="layer">
+                        <h3>Asphalt 9: Legends Player</h3>
+                        <p>I Am a good car driver as well and usually play multiplayer in this game. As a coder i am able to understand and evaluate the shoetest path and gain the speed as fast as possible. i like to steam my game play as we all have some
+                            or the other desires and goals.</p>
+                        <a href="https://youtube.com/playlist?list=PLIgjB0GQOQJKAXv-epE2Tz7LPqN9zz5oJ&si=lkYhYaC8a6MOwM2M"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpeg">
+                    <!-- image to be inserted -->
+                    <div class="layer">
+                        <h3>Mincraft Player</h3>
+                        <p>I love to play Mincraft as it helps us to think in a wider range and provides the posibility and creativity in the virtual world. That is needed in our actual world to gain the maximum level of intrest of people. This is one of
+                            the thing that hade made me a creative, polite and thinkable person around the world.</p>
+                        <a href="https://youtube.com/playlist?list=PLIgjB0GQOQJK2IcnUTwaU6wFgp4lXp5IE&si=X0-C7_YlVyS45ncQ"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <!-- -----------------------------------------------contact------------------------------------------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> @Vishrutrana001</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 9654787905</p>
+                    <p><i class="fa-solid fa-envelope"></i> vishrutrana0202@gmail.com</p>
+                    <div class="social-icons">
+                        <h1 class="header">Connect With Me:</h1>
+                        <a href="https://discord.com/invite/CHjQ3atsRw"><i class="fa-brands fa-discord"></i> God Gamers</a><br>
+                        <a href="https://www.instagram.com/vishrut_rana007"><i class="fab fa-instagram"></i> Vishrut Rana</a><br>
+                        <a href="https://www.youtube.com/@gamex1509"><i class="fa-brands fa-youtube"></i> Gamex_Live</a><br>
+                        <a href="https://www.facebook.com/vishrutrana007?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/vishrut-rana-ba230a233"><i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                    <a href="MyCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your Email">
+                        <input type="tel" name="Mobile Number" aria-live="assertive" placeholder="Your Mobile Number">
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" id="btn" class="btn btn2">Submit</button>
+                        <button type="reset" id="btn" class="btn btn2">Reset Form</button>
+                    </form>
+                    <!-- <span id="msg"></span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fa fa-history"></i></div>
+                <div class="counter">16 hrs/day</div>
+                <div class="text">Working Hours</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-gift"></i></div>
+                <div class="counter">3</div>
+                <div class="text">Compleated Projects</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-user"></i></div>
+                <div class="counter">4</div>
+                <div class="text">Happy Clients</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-trophy"></i></div>
+                <div class="counter">5</div>
+                <div class="text">Acheavments Recevied</div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © VISHRUT RANA </i>
+            </p>
+        </div>
+    </div>
+    <!-- <button class="btn"><a href="#header"><i class="fa-solid fa-angle-up"></i> Home</a></button> -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz84hYygPGdtWEYeP-Ze-OH3PIWPXnXQRJ0-bE9SUkKHBQUK4zZ7WyFNZqxiDibw_9c/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message Recorded Succesfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        var typed = new Typed(".text-anime", {
+            strings: ["Front-End-Developer.", "Back-End Developer.", "Programmer.", "YouTuber.", "Basic Cyber Security Expert.", "Genrative AI Expert.", "Image / Video Editor."],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 1000,
+            loop: true
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".counter").conterUp({
+                delay: 10,
+                time: 1200
+
+            })
+        })
+    </script>
+
+</body>
+
+</html>
