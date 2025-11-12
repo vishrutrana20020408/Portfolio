@@ -32,6 +32,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
 }
 
 .logo {
@@ -819,4 +820,5 @@ nav .fa-solid {
     .content .box {
         width: 100%;
     }
+
 }
