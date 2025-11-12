@@ -32,7 +32,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     /* flex-wrap: wrap; */
+
+    
+    display: flex;
+    line-height: 4rem;
     position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: .5px solid #ffffff52;
     border-width: 80%;
     margin-bottom: 1rem;
 }
@@ -824,5 +832,6 @@ nav .fa-solid {
     }
 
 }
+
 
 
